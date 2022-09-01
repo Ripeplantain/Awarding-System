@@ -1,0 +1,10 @@
+/* This is the css for special award layout */
+
+.special-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.special-loop {
+    margin-right:20px;
+}

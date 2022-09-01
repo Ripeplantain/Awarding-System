@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600&family=Roboto+Slab:wght@400;500&display=swap');
+
+
+/* This is for all form designs
+-login design
+-create award design
+*/
+@import "form.css";
+
+/* This css was done for the navigation header for all the pages 
+navigation css
+*/
+@import "navigation.css";
+
+/* This is the css for the tables you see on my page */
+@import "table.css";
+
+@import "dropdown.css";
+
+/* This is the css for the document view */
+@import "special.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* tryinf to make the navigation full width length */
+.body-text,
+.input-text,
+.alert-message {
+    font-family: 'Roboto Serif', serif;
+}
+
+/* design for admin dashboard */
+.body-text {
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.session-box {
+    margin: 20px 200px 30px;
+}
+
+.filter-field {
+    display: flex;
+}
+
+/* increased the font size and letter spacing for session 
+drop down button */
+.dashboard-session-button {
+    font-size: 1.255rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.dashboard-session-box {
+    margin: 2rem 15rem;
+}
+
+/* design for alert messages  */
+.alert-message {
+    font-size: 0.837rem;
+    width: 100%;
+    height: 60px;
+    margin-left: 87%;
+    padding:10px;
+}
+
+/* designed seach field making session 
+button display flex */
+.filter-box {
+    display: flex;
+}
+
+.search-field {
+    margin-top:2.5rem;
+}
+
+
+/* inseted a background picture here 
+might add opacity and a little padding */
+body {
+    background: #f5f6fa;
+}
+
+.login-form {
+    background: #F0F0F0;
+}
+
+.login-container {
+    margin-top: 6rem;
+}
+
+.log-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
